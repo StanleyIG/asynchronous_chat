@@ -52,7 +52,7 @@ def main():
     # инициализация сокета и обмен
     transport = socket(AF_INET, SOCK_STREAM)
     transport.connect((server_address, server_port))
-    message_to_server = create_presence('Test User')
+    message_to_server = create_presence()
     send_message(transport, message_to_server)
     try:
         answer = process_ans(get_message(transport))
