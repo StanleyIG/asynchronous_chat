@@ -1,0 +1,5 @@
+2023-06-25 13:09:20,567 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59510)
+2023-06-25 13:09:20,568 DEBUG server.py Получено сообщение {'action': 'presence', 'time': '25.06.2023 13:09:20', 'user': {'account_name': 'Test User'}}
+2023-06-25 13:09:20,568 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': '25.06.2023 13:09:20', 'user': {'account_name': 'Test User'}}
+2023-06-25 13:09:20,568 INFO server.py Cформирован ответ клиенту {'response': 400, 'error': 'Bad Request'}
+2023-06-25 13:09:20,568 DEBUG server.py Соединение с клиентом ('127.0.0.1', 59510) закрывается.
