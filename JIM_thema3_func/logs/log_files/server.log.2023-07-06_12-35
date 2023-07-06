@@ -1,0 +1,3 @@
+2023-07-06 12:35:29,162 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1688636128.8401742, 'account_name': 'Guest', 'mess_text': 'Нормально!'}
+2023-07-06 12:35:29,162 DEBUG server.py Cообщения от клиента : Нормально!
+2023-07-06 12:35:29,163 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'message', 'time': 1688636128.8401742, 'account_name': 'Guest', 'mess_text': 'Нормально!'}, [('Guest', 'Нормально!')], <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61263)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main

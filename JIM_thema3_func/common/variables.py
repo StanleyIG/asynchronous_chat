@@ -1,7 +1,6 @@
 """Константы"""
 
 import logging
-import os
 
 # Порт поумолчанию для сетевого ваимодействия
 DEFAULT_PORT = 7777
@@ -21,9 +20,11 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
+SENDER = 'sender'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
-
+MESSAGE = 'message'
+MESSAGE_TEXT = 'mess_text'
