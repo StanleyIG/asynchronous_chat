@@ -1,6 +1,29 @@
-2023-06-30 12:56:31,128 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59596)
-2023-06-30 12:56:31,129 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1688118991.1287909, 'user': {'account_name': 'Guest'}}
-2023-06-30 12:56:31,129 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688118991.1287909, 'user': {'account_name': 'Guest'}}
-2023-06-30 12:56:31,130 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688118991.1287909, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
-2023-06-30 12:56:31,130 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-30 12:56:31,130 DEBUG server.py Соединение с клиентом ('127.0.0.1', 59596) закрывается.
+2023-07-06 13:15:35,019 DEBUG server.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:15:35,020 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-06 13:15:35,494 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61739)
+2023-07-06 13:15:35,506 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61740)
+2023-07-06 13:15:35,506 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688638535.4947045, 'user': {'account_name': 'Guest'}}
+2023-07-06 13:15:35,507 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688638535.4947045, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61739)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:15:35,508 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61741)
+2023-07-06 13:15:35,508 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688638535.506707, 'user': {'account_name': 'Guest'}}
+2023-07-06 13:15:35,508 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688638535.506707, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61740)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:15:35,511 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61743)
+2023-07-06 13:15:35,511 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688638535.508707, 'user': {'account_name': 'Guest'}}
+2023-07-06 13:15:35,511 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688638535.508707, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61741)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:15:35,511 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61744)
+2023-07-06 13:15:35,511 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688638535.511708, 'user': {'account_name': 'Guest'}}
+2023-07-06 13:15:35,512 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688638535.511708, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61743)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:15:35,512 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61742)
+2023-07-06 13:15:35,512 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688638535.511708, 'user': {'account_name': 'Guest'}}
+2023-07-06 13:15:35,513 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688638535.511708, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61744)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:15:35,513 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688638535.511708, 'user': {'account_name': 'Guest'}}
+2023-07-06 13:15:35,513 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688638535.511708, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61742)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:15:51,525 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1688638551.209759, 'account_name': 'Guest', 'mess_text': 'Привет'}
+2023-07-06 13:15:51,525 DEBUG server.py Cообщения от клиента : Привет
+2023-07-06 13:15:51,525 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'message', 'time': 1688638551.209759, 'account_name': 'Guest', 'mess_text': 'Привет'}, [('Guest', 'Привет')], <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61739)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:16:06,535 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1688638566.30663, 'account_name': 'Guest', 'mess_text': 'Hello'}
+2023-07-06 13:16:06,535 DEBUG server.py Cообщения от клиента : Hello
+2023-07-06 13:16:06,535 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'message', 'time': 1688638566.30663, 'account_name': 'Guest', 'mess_text': 'Hello'}, [('Guest', 'Hello')], <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61744)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-06 13:16:16,042 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'time': 1688638575.6100452, 'account_name': 'Guest', 'mess_text': 'Hi'}
+2023-07-06 13:16:16,042 DEBUG server.py Cообщения от клиента : Hi
+2023-07-06 13:16:16,042 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'message', 'time': 1688638575.6100452, 'account_name': 'Guest', 'mess_text': 'Hi'}, [('Guest', 'Hi')], <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61743)>), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
