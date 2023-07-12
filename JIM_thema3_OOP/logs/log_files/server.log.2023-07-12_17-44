@@ -1,0 +1,9 @@
+2023-07-12 17:43:59,259 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65535), raddr=('127.0.0.1', 51948)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main_loop
+2023-07-12 17:43:59,269 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1689173038.9418085, 'mess_text': 'Привет'}
+2023-07-12 17:43:59,270 ERROR server.py Пользователь test2 не зарегистрирован на сервере, отправка сообщения невозможна.
+2023-07-12 17:44:33,299 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65535), raddr=('127.0.0.1', 51948)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main_loop
+2023-07-12 17:44:33,299 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'Здорова!', 'time': 1689173073.0142894, 'mess_text': 'exit'}
+2023-07-12 17:44:33,299 ERROR server.py Пользователь Здорова! не зарегистрирован на сервере, отправка сообщения невозможна.
+2023-07-12 17:44:37,803 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65535), raddr=('127.0.0.1', 51948)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main_loop
+2023-07-12 17:44:37,803 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1689173077.6381044, 'account_name': 'test1'}
+2023-07-12 17:44:37,803 INFO server.py Клиент ('127.0.0.1', 51948) отключился от сервера.
