@@ -1,0 +1,6 @@
+2023-07-12 17:41:20,346 DEBUG server.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-07-12 17:41:20,346 INFO server.py Запущен сервер, порт для подключений: 65535 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-12 17:41:20,632 INFO server.py Установлено соедение с ПК ('127.0.0.1', 51948)
+2023-07-12 17:41:21,132 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65535), raddr=('127.0.0.1', 51948)>,), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции main_loop
+2023-07-12 17:41:21,133 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689172880.6324887, 'user': {'account_name': 'test1'}}
+2023-07-12 17:41:21,133 DEBUG utils.py Была вызвана функция send_message c параметрами (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65535), raddr=('127.0.0.1', 51948)>, {'response': 200}), {}. Вызов из модуля common.utils. Вызов из функции main().Вызов из функции process_client_message

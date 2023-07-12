@@ -1,0 +1,18 @@
+2023-06-30 12:50:27,625 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59506)
+2023-06-30 12:50:27,625 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1688118627.6245728, 'user': {'account_name': 'Guest'}}
+2023-06-30 12:50:27,626 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688118627.6245728, 'user': {'account_name': 'Guest'}}
+2023-06-30 12:50:27,626 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688118627.6245728, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-30 12:50:27,626 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-30 12:50:27,627 DEBUG server.py Соединение с клиентом ('127.0.0.1', 59506) закрывается.
+2023-06-30 12:50:36,760 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59509)
+2023-06-30 12:50:36,760 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1688118636.7602477, 'user': {'account_name': 'Guest'}}
+2023-06-30 12:50:36,760 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688118636.7602477, 'user': {'account_name': 'Guest'}}
+2023-06-30 12:50:36,761 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688118636.7602477, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-30 12:50:36,761 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-30 12:50:36,761 DEBUG server.py Соединение с клиентом ('127.0.0.1', 59509) закрывается.
+2023-06-30 12:50:41,175 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59510)
+2023-06-30 12:50:41,175 DEBUG server.py Получено сообщение {'action': 'presence', 'time': 1688118641.175181, 'user': {'account_name': 'Guest'}}
+2023-06-30 12:50:41,176 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1688118641.175181, 'user': {'account_name': 'Guest'}}
+2023-06-30 12:50:41,176 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1688118641.175181, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2023-06-30 12:50:41,176 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-30 12:50:41,176 DEBUG server.py Соединение с клиентом ('127.0.0.1', 59510) закрывается.
